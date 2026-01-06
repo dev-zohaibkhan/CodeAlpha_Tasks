@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Image Gallery</h1>
+
+    <!-- Filter Buttons -->
+    <div class="filters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="nature">Nature</button>
+      <button data-filter="city">City</button>
+      <button data-filter="cars">Cars</button>
+    </div>
+
+    <!-- Gallery -->
+    <div class="gallery">
+      <img src="images/nature1.avif" data-category="nature" />
+      <img src="images/city1.avif" data-category="city" />
+      <img src="images/car1.avif" data-category="cars" />
+      <img src="images/nature2.avif" data-category="nature" />
+      <img src="images/city2.avif" data-category="city" />
+      <img src="images/car2.avif" data-category="cars" />
+      <img src="images/nature3.avif" data-category="nature" />
+      <img src="images/city3.avif" data-category="city" />
+      <img src="images/car3.avif" data-category="cars" />
+      <img src="images/nature4.avif" data-category="nature" />
+      <img src="images/city4.avif" data-category="city" />
+      <img src="images/car4.avif" data-category="cars" />
+      <img src="images/nature5.avif" data-category="nature" />
+      <img src="images/city5.avif" data-category="city" />
+      <img src="images/car5.avif" data-category="cars" />
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+      <span class="close">&times;</span>
+      <button class="prev">&#10094;</button>
+      <img class="lightbox-img" />
+      <button class="next">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
